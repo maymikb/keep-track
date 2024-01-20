@@ -6,7 +6,7 @@ const path =require("path")
 
 // middlewares
 app.use(express.static("public"))
-
+ 
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 

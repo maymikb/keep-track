@@ -23,12 +23,5 @@ The motivation for this app was to make taking and saving notes trouble-free.
 <div>db.json</div>
 
 
-
-
-## Screenshot
-
-
-
-
 ## Video Walkthrough Link
 
