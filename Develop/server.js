@@ -51,10 +51,6 @@ app.post("/api/notes", function(req,res){
 
 
 
-
-
-
-
 app.listen (PORT, function(){
     console.log("server is running")
 })
