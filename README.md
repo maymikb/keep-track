@@ -1,4 +1,4 @@
-# Read Me Generator
+# Note Taker
 By Maymi Sarr
 
 
