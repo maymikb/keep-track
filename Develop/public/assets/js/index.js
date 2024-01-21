@@ -56,7 +56,7 @@ const deleteNote = (id) =>
 const renderActiveNote = () => {
   hide(saveNoteBtn);
   hide(clearBtn);
-
+  console.log('attempting to render active note', activeNote)
   if (activeNote.id) {
     show(newNoteBtn);
     noteTitle.setAttribute('readonly', true);
@@ -89,12 +89,13 @@ const handleNoteDelete = (e) => {
   e.stopPropagation();
 
   const note = e.target;
+  console.log("(note.parentElement.getAttribute('data-note')", note.parentElement.getAttribute('data-note'))
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
 
   if (activeNote.id === noteId) {
     activeNote = {};
   }
-
+  console.log("noteId is:", noteId)
   deleteNote(noteId).then(() => {
     getAndRenderNotes();
     renderActiveNote();
@@ -105,6 +106,7 @@ const handleNoteDelete = (e) => {
 const handleNoteView = (e) => {
   e.preventDefault();
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+  console.log('active note: ', activeNote)
   renderActiveNote();
 };
 

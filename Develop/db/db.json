@@ -1,14 +1,22 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Taking notes",
-        "text": "This may be a good habit!"
-    },
-    {
         "title": "How to...",
-        "text": "Delete notes from page vs from VSCode"
+        "text": "Delete notes from page vs from VSCode",
+        "id": 1
+    },
+    {
+        "title": "newer note",
+        "text": "poopooi",
+        "id": 3
+    },
+    {
+        "title": "test 1",
+        "text": "sdfsdf",
+        "id": 4
+    },
+    {
+        "title": "should be id 2",
+        "text": "cmon baby",
+        "id": 2
     }
 ]
