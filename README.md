@@ -7,7 +7,7 @@ The purpose of this app is to create a platform for one to write and save notes.
 ## Table of contents
 - [Description](#description)
 - [Installation](#installation)
-- [Link](#Link for the Note Taker app)
+- [Heroku link](#link)
 
 
 ## Description
@@ -23,5 +23,5 @@ Once new notes are created and saved, they appear in the left hand column of the
 <div>db.json</div>
 
 
-## Link for the Note Taker app on Heroku
+## Heroku link
 https://keep-track-d2e36e804bbf.herokuapp.com/notes
