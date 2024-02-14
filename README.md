@@ -24,4 +24,4 @@ Once new notes are created and saved, they appear in the left hand column of the
 
 
 ## Heroku link
-https://keep-track-d2e36e804bbf.herokuapp.com/notes
+https://keep-track-d2e36e804bbf.herokuapp.com/
