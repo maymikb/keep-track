@@ -1,4 +1,4 @@
-# Note Taker
+# keep-track (the note taker app)
 By Maymi Sarr
 
 
